@@ -14,7 +14,7 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for index in 0..<10 {
-            let newItem = Item(context: viewContext)
+            let newItem = Words(context: viewContext)
             newItem.english_word = "test word\(index + 1)"
             newItem.japanese_word = "テスト用の単語\(index + 1)"
         }

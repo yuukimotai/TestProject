@@ -21,9 +21,9 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        Text("Item at \(item.english_word!")
+                        Text("Item at \(item.english_word!)" as String)
                     } label: {
-                        Text(item.english_word)
+                        Text(item.english_word!)
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -45,7 +45,7 @@ struct ContentView: View {
     private func addItem() {
         withAnimation {
             let newItem = Words(context: viewContext)
-            newItem.timestamp = Date()
+            newItem.english_word = ""
 
             do {
                 try viewContext.save()
