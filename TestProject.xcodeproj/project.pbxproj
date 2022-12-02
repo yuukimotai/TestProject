@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F94199C2938C74200CDB2B0 /* AddWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94199B2938C74200CDB2B0 /* AddWordsView.swift */; };
 		9F9E4E4F29378B2500E7A1EF /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E4E4E29378B2500E7A1EF /* TestProjectApp.swift */; };
 		9F9E4E5129378B2500E7A1EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E4E5029378B2500E7A1EF /* ContentView.swift */; };
 		9F9E4E5329378B2600E7A1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E4E5229378B2600E7A1EF /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		9F9E4E7129378B2600E7A1EF /* TestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E4E7029378B2600E7A1EF /* TestProjectUITestsLaunchTests.swift */; };
 		9F9E4E7F29378D7F00E7A1EF /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E4E7D29378D7F00E7A1EF /* Words+CoreDataClass.swift */; };
 		9F9E4E8029378D7F00E7A1EF /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E4E7E29378D7F00E7A1EF /* Words+CoreDataProperties.swift */; };
+		9FBB8EA5293A179E0093C34E /* EditWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB8EA4293A179E0093C34E /* EditWordsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F94199B2938C74200CDB2B0 /* AddWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordsView.swift; sourceTree = "<group>"; };
 		9F9E4E4B29378B2500E7A1EF /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9E4E4E29378B2500E7A1EF /* TestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectApp.swift; sourceTree = "<group>"; };
 		9F9E4E5029378B2500E7A1EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		9F9E4E7029378B2600E7A1EF /* TestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F9E4E7D29378D7F00E7A1EF /* Words+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Words+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9F9E4E7E29378D7F00E7A1EF /* Words+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Words+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9FBB8EA4293A179E0093C34E /* EditWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				9F9E4E4E29378B2500E7A1EF /* TestProjectApp.swift */,
 				9F9E4E5029378B2500E7A1EF /* ContentView.swift */,
+				9F94199B2938C74200CDB2B0 /* AddWordsView.swift */,
+				9FBB8EA4293A179E0093C34E /* EditWordsView.swift */,
 				9F9E4E5229378B2600E7A1EF /* Assets.xcassets */,
 				9F9E4E5729378B2600E7A1EF /* Persistence.swift */,
 				9F9E4E5929378B2600E7A1EF /* TestProject.xcdatamodeld */,
@@ -271,9 +277,11 @@
 			files = (
 				9F9E4E5829378B2600E7A1EF /* Persistence.swift in Sources */,
 				9F9E4E8029378D7F00E7A1EF /* Words+CoreDataProperties.swift in Sources */,
+				9F94199C2938C74200CDB2B0 /* AddWordsView.swift in Sources */,
 				9F9E4E5129378B2500E7A1EF /* ContentView.swift in Sources */,
 				9F9E4E4F29378B2500E7A1EF /* TestProjectApp.swift in Sources */,
 				9F9E4E7F29378D7F00E7A1EF /* Words+CoreDataClass.swift in Sources */,
+				9FBB8EA5293A179E0093C34E /* EditWordsView.swift in Sources */,
 				9F9E4E5B29378B2600E7A1EF /* TestProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

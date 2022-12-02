@@ -20,15 +20,20 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(items) { item in
-                    NavigationLink {
+                    NavigationLink(destination: EditWordsView(word: item)) {
                         Text("Item at \(item.english_word!)" as String)
-                    } label: {
-                        Text(item.english_word!)
                     }
                 }
                 .onDelete(perform: deleteItems)
             }
+            .navigationTitle("Words")
+            .navigationBarTitleDisplayMode(.automatic)
             .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: AddWordsView()) {
+                        Text("NewWord")
+                    }
+                }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
