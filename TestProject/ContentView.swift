@@ -21,7 +21,7 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink(destination: EditWordsView(word: item)) {
-                        Text("Item at \(item.english_word!)" as String)
+                        Text("\(item.english_word!)" as String)
                     }
                 }
                 .onDelete(perform: deleteItems)
